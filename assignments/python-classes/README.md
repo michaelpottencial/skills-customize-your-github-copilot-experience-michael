@@ -4,7 +4,7 @@
 
 Learn how to define and use classes in Python to model real-world objects and behaviors.
 
-## 📝 Tasks
+## 📝 Objectives
 
 ### 🛠️ Define a Simple Class
 

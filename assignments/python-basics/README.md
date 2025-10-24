@@ -3,52 +3,85 @@
 
 ## 🎯 Objective
 
-Practice fundamental Python programming skills including user input, string formatting, arithmetic operations, and conditional statements by implementing simple functions.
+Practice fundamental Python programming skills: user input, string formatting, arithmetic operations, and conditional statements by implementing small, testable functions.
 
 ## 📝 Tasks
 
 ### 🛠️ User Input and String Formatting
 
 #### Description
-Write a function called `welcome_message()` that interacts with the user and returns a formatted welcome message.
+Implement a function `welcome_message()` that asks the user for their name, age and favorite color and returns a formatted greeting string.
 
 #### Requirements
 Completed program should:
 
-- Ask the user for their name, age, and favorite color using `input()`.
-- Return a welcome message formatted as:
+- Ask the user for their name, age and favorite color using `input()`.
+- Return a string formatted exactly as:
   `Hello, [name]! You are [age] years old and your favorite color is [color].`
-- Example output:
-  `Hello, Alice! You are 25 years old and your favorite color is blue.`
+- Include a short example (input → output) demonstrating the function.
+
+Example
+```text
+Input:
+name: Alice
+age: 25
+color: blue
+
+Output:
+Hello, Alice! You are 25 years old and your favorite color is blue.
+```
+
+---
 
 ### 🛠️ Basic Arithmetic
 
 #### Description
-Write a function called `add_two_numbers()` that prompts the user for two numbers and prints their sum.
+Implement a function `add_two_numbers()` that prompts the user to enter two numbers and prints their sum.
 
 #### Requirements
 Completed program should:
 
-- Ask the user to enter two numbers.
-- Add the numbers together.
-- Print the result. Example:
-  Enter the first number: 3
-  Enter the second number: 7
-  10
+- Prompt the user for two numbers (accept integers or decimals).
+- Convert inputs to the appropriate numeric type, compute the sum, and print the result.
+- Handle incorrect numeric input with a friendly message (optional extra credit).
+
+Example
+```text
+Enter the first number: 3
+Enter the second number: 7
+Output: 10
+```
+
+---
 
 ### 🛠️ Conditional Statements
 
 #### Description
-Write a function called `is_even()` that checks if a number is even.
+Implement a pure function `is_even(n)` that returns whether an integer is even.
 
 #### Requirements
 Completed program should:
 
-- Take a single integer argument.
-- Return `True` if the number is even, and `False` if it is odd.
-- Example usage:
-  ```python
-  print(is_even(4))  # True
+- Accept a single integer argument `n`.
+- Return `True` if `n` is even, otherwise return `False`.
+- Include example usage showing both `True` and `False` results.
+
+Example
+```python
+def is_even(n):
+    return n % 2 == 0
+
+print(is_even(4))  # True
+print(is_even(5))  # False
+```
+
+---
+
+### Submission notes
+
+- Create a Python file `solutions.py` (or similar) with the three functions above and simple demo code under `if __name__ == "__main__":`.
+- Keep examples small and focused so they are easy to run and test.
+
   print(is_even(5))  # False
   ```
 
