@@ -10,7 +10,7 @@ Build a playable command-line Hangman game to practice Python strings, loops, co
 ### 🛠️ Implement the Hangman core
 
 #### Description
-Create a command-line program (suggested filename: `hangman.py`) that runs a full game loop: choose a secret word, accept letter guesses from the player, reveal correct letters, and track remaining attempts.
+Create a command-line program (suggested filename: `hangman.py`) that runs a full game loop: choose a secret word, accept letter guesses from the player, reveal correct letters, and track remaining attempts. 
 
 #### Requirements
 Completed program should:
